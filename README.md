@@ -17,9 +17,9 @@ This project is a chatbot application built with the LLaMA 2 language model, uti
 
 ### Installation
 
-1. **Install required packages**:
+1. **Install required packages**: Run the following command to install the necessary dependencies:
 ```bash
-pip install streamlit ollama
+pip install -r requirements.txt
 ```
 2. **Download the LLaMA 2 Model**: To use the LLaMA 2 model locally, download it via Ollama by running the following command in your terminal:
 ```bash
