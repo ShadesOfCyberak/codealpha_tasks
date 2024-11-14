@@ -5,7 +5,7 @@ class Hangman:
     def __init__(self, difficulty="easy"):
         self.difficulty = difficulty
         self.__wordlist = {
-            "easy": ["apple", "banana", "cherry", "date", "elderberry"],
+            "easy": ["apple", "banana", "cherry", "date", "orange"],
             "medium": ["orange", "pear", "quince", "raspberry", "strawberry"],
             "hard": ["apricot", "blueberry", "cranberry", "dragonfruit", "elderberry"]
         }
