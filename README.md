@@ -49,3 +49,45 @@ streamlit run chatbot.py
 - **404 Errors**: Ensure that Ollama is running, and that the LLaMA model is available.
 - **Connection Issues**: Double-check that your Ollama server is accessible and running on the default port.
 - **Model Errors**: Ensure that you’ve downloaded the model correctly with ollama pull llama2.
+
+## Stock & Crypto Price Tracker in INR
+
+This application is a stock and cryptocurrency portfolio tracker built using Streamlit, which allows users to track and manage investments in various assets. It uses Google Finance for real-time prices and supports automatic conversion to INR for U.S. and Indian stock exchanges.
+
+### Features
+
+- **Portfolio Tracker**: Add and remove stocks/cryptocurrencies from your portfolio.
+- **Current Prices**: Display the latest prices of top stocks and cryptocurrencies in INR.
+- **Gain/Loss Tracking**: Real-time gain/loss calculations based on current and purchase prices.
+- **Automatic Currency Conversion**: Convert USD-based stocks to INR based on the current USD-INR exchange rate.
+
+### Requirements
+
+- Python 3.7+
+- Streamlit
+- Requests
+- BeautifulSoup (bs4)
+- Pandas
+
+### Installation
+
+1. **Install the dependencies**:
+```bash
+pip install -r requirements.txt
+```
+
+2. **Run the Streamlit app**:
+```bash
+streamlit run PortFolioTracker.py
+```
+
+### Usage
+
+1. **Portfolio Tracker**:
+- Select a stock or cryptocurrency from the dropdown menu or add a custom ticker.
+- Enter the number of shares and add it to your portfolio.
+- View a summary of your portfolio, including gain/loss calculations and portfolio value.
+- You can also remove the assets from your portfolio.
+
+2. **Current Prices**:
+- View a table of current prices for top assets in INR.
