@@ -17,7 +17,7 @@ This project is a chatbot application built with the LLaMA 2 language model, uti
 
 ### Installation
 
-1. **Install required packages**: Run the following command to install the necessary dependencies:
+1. **Install required packages**: Install required packages: Run the following command to install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -40,8 +40,9 @@ streamlit run chatbot.py
 2. **Interact with the Chatbot**:
 
 - Open the provided URL in your browser (typically http://localhost:8501).
+- Use the Settings sidebar to adjust the chatbot's personality.
 - Type a message in the input field and press Enter.
-- The chatbot will respond using the LLaMA 2 model, and the conversation history will be displayed.
+- Click Clear Chat History to reset the conversation.
 
 ### Troubleshooting
 
